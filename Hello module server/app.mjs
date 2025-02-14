@@ -5,7 +5,7 @@ const port = 4000
 // 192.168.228.113:4000
 
 app.get('/', (req, res) => {
-  res.send('Hello World from Haniya!')
+  res.send('Hello World from Haniya , Khizra!')
   console.log(req.ip)
 })
 
