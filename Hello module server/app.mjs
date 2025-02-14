@@ -6,6 +6,7 @@ const port = 4000
 
 app.get('/', (req, res) => {
   res.send('Hello World from Haniya!')
+  console.log(req.ip)
 })
 
 app.listen(port, () => {
